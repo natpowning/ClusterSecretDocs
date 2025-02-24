@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
@@ -610,9 +609,9 @@ kubectl apply -f ./yaml
 </code></pre>
 <h2 id="requirements">Requirements</h2>
 <p>Current version 0.0.8 is tested for Kubernetes &gt;= 1.25</p>
-<p>For older kubernes (&lt;1.19) use the image tag "0.0.6" in  yaml/02_deployment.yaml</p>
+<p>For older Kubernetes (&lt;1.19) use the image tag "0.0.6" in yaml/02_deployment.yaml</p>
 <h2 id="step-by-step">step by step</h2>
-<p>To instal ClusterSecret operator we need to create (in this order):</p>
+<p>To install ClusterSecret operator we need to create (in this order):</p>
 <ul>
 <li>RBAC resources (avoid if you are not running RBAC) to allow the operator to create/update/patch secrets: yaml/00_</li>
 <li>Custom resource definition for the ClusterSecret resource: yaml/01_crd.yaml</li>
